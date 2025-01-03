@@ -1,0 +1,42 @@
+Server setup guide
+
+Inside a sperate folder you can find images that follow each step below incase you get lost
+
+First step is to extract the Server folder within this file
+
+
+Once extracted open the Server folder
+
+Navigate to TheCenozoicEraServer.exe
+
+Right click the .exe -> Create Shortcut. Make sure the shortcut is created within the Server folder.
+
+Note: If you use Windows 11 you may have to click "Show more options" at the bottom of the window when right clicking
+Right click on the newly created shortcut -> Properties
+
+Once inside properties you want to edit the Target line, make sure you are all the way at the end of the text field
+
+Paste in the following: Port=(X)?QueryPort=(X)?MaxPlayers=(Players) -log -game -server
+
+(Make sure to add a space at the end of the target line before pasting in the above text)
+
+Port=(X) Make sure to replace the (X) with your port number. Example Port=210191 Samething for QueryPort=(X)
+
+MaxPlayers=(Players) make sure to replace (Players) with the amount of players you want. Example MaxPlayers=100
+
+If you need help understanding what ports to use and how to forward them you will need to look up a separate
+tutorial for ports
+
+
+Once finished, launch the new created shortcut file and allow the server to run for a short time
+Note: It will error, that's fine, this is creating the required files needed for final server setup
+If prompted click "Allow"
+
+After you see the log window stops scrolling, close it down and head to:
+TheCenozoicEraServer\Server\TheCenozoicEra\Saved\Config\WindowsServer
+
+Paste in the included Game.ini file and edit the fields as needed
+
+
+If you need more help, please create a ticket in the Discord
+
